@@ -1,0 +1,130 @@
+body{
+  margin:0 ;
+  display:flex;
+  flex-direction: column;
+  min-height: 10vh;
+  color:white;
+  background-color: #DAEDEF;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #23177B;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex:8;
+  align-items: center;
+}
+
+nav ul li {
+
+  text-align: center;
+  list-style-type: none;
+  display:inline-block;
+  position:relative;
+  background-color: #23177B;
+  padding:10px;
+
+}
+
+nav ul li a {
+  display: block;
+  padding:0 10px;
+  text-decoration: none;
+  color:white;
+  font-size:20px;
+}
+nav ul li :hover {
+  color:#23177B;
+  background-color: #DAEDEF;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+nav ul ul,span ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 0;
+}
+
+nav ul ul li,span ul ul li {
+  float: none;
+  width: 100%;
+  border: 1px solid #23177B;
+}
+
+nav ul ul li a ,span ul ul li a  {
+  display: block;
+  color:#DAEDEF;
+  text-decoration: none;
+}
+
+nav ul ul li a:hover {
+      background-color: #DAEDEF;  
+}
+
+form {
+  display:flex;
+  flex:2;
+  padding: 30px;
+  text-align:right;
+}
+
+nav input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+
+nav button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #0077be;
+  border: none;
+  cursor: pointer;
+}
+
+nav button[type="submit"]:hover {
+  background-color: #f5f5f5;
+}
+
+nav .logo {
+  display:flex;
+  flex :1;
+  margin-left:20px;
+  max-width: 400px; /* ajustez la largeur maximale en fonction de la taille de votre logo */
+}
+
+nav .logo img {
+  background-color: #DAEDEF;
+  max-height: 70px; /* ajustez la hauteur maximale en fonction de la taille de votre logo */
+  margin: 0 auto; /* centrez le logo horizontalement */
+}
+
+span{
+  display:flex;
+  flex-direction: column ;
+  flex:1.5;
+  align-items: center;
+  margin-right: 30px;
+  
+}
+
+p{
+  color: white;
+  font-size: 15px;
+}
+
+ 

@@ -1,0 +1,79 @@
+section{
+  display: flex;
+  flex-direction: column;
+ justify-content:center ;
+  
+}
+
+
+table{
+  width: 100%;
+border-collapse: collapse;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-top: 3px;
+}
+
+th{
+background-image:url(mesh-1430107_640.webp);
+color:black;
+border-top:2px solid  rgb(145, 179, 247) ;
+margin-top: 4px;
+
+}
+tr{
+  border-top:2px solid  rgb(240, 237, 237); 
+
+color:black;
+font-size: 20px;
+color:black;
+height: 40px;
+background-color:white;
+padding-right: 10px;
+
+}
+
+
+tr:nth-child(even){
+
+  background-color: rgb(216, 227, 248);
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  color:black;
+  
+padding-top: 10px;
+  
+}
+
+      
+
+#prof{
+  background-image:url(mesh-1430107_640.webp);
+  
+  margin-bottom: 20px;
+}
+#prof input{
+
+  width: 30%;
+ 
+}
+
+  
+
+
+
+      div#go{
+          display: flex;
+         justify-content: center;
+      }
+      
+      div#chix{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+      }
